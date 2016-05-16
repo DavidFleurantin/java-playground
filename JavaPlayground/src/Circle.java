@@ -16,8 +16,8 @@ public class Circle {
 	 * 
 	 * @param r the radius of the circle
 	 */
-	public Circle(double r) {
-		radius = r;
+	public Circle(double radius) {
+		this.radius = radius;
 	}
 
 	// Methods
