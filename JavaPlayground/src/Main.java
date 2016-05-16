@@ -15,6 +15,9 @@ public class Main {
 
 		System.out.print(myCircle.area());
 
+		// Using Static function 
+		
+		System.out.println(Circle.di(myCircle));
 	}
 
 }

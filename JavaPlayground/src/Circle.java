@@ -5,6 +5,7 @@ public class Circle {
 
 	// Instance Fields
 	public Double radius; // radius of the circle. radius >= 0
+	public static final double PI = 3.141592653589793; // PI (constant)
 
 	
 	/**
@@ -51,5 +52,9 @@ public class Circle {
 	 */
 	public double area() {
 		return (Math.pow(radius, 2) * Math.PI);
+	}
+	
+	public static double di(Circle c) {
+		return PI * c.radius * c.radius;
 	}
 }
