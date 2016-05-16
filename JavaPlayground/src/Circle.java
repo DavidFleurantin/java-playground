@@ -7,13 +7,12 @@ public class Circle {
 	public Double radius; // radius of the circle. radius >= 0
 	public static final double PI = 3.141592653589793; // PI (constant)
 
-	
 	/**
-	 * <dt><b>Constructor:</b><dd>
-	 * instance of Circle with radius r
+	 * <dt><b>Constructor:</b>
+	 * <dd>instance of Circle with radius r
 	 * 
-	 * <dt><b>Preconditions:</b><dd> 
-	 * r >= 0
+	 * <dt><b>Preconditions:</b>
+	 * <dd>r >= 0
 	 * 
 	 * @param r the radius of the circle
 	 */
@@ -33,15 +32,15 @@ public class Circle {
 	}
 
 	/**
-	 * Sets radius to new value 
-	 * <dt><b>Preconditions:</b><dd> 
-	 * r >= 0
+	 * Sets radius to new value
+	 * <dt><b>Preconditions:</b>
+	 * <dd>r >= 0
 	 * 
 	 * @param r the newly specified radius
 	 */
 	public void setRadius(double r) {
 		assert r >= 0;
-		
+
 		radius = r;
 	}
 
@@ -53,7 +52,7 @@ public class Circle {
 	public double area() {
 		return (Math.pow(radius, 2) * Math.PI);
 	}
-	
+
 	public static double di(Circle c) {
 		return PI * c.radius * c.radius;
 	}
