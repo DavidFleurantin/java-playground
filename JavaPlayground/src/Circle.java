@@ -56,7 +56,21 @@ public class Circle extends Shape {
 		return (Math.pow(radius, 2) * Math.PI);
 	}
 
-	public static double di(Circle c) {
+	/**
+	 * Returns the area of Circle
+	 * 
+	 * @return area of Circle
+	 */
+	public static double di(Circle c) {  // Static Method Call
 		return PI * c.radius * c.radius;
+	}
+	
+	/**
+	 * Returns representation of this
+	 * 
+	 * @return representation of this
+	 */
+	public @Override String toString() { // Don't need @Override. Used to Catch Errors
+		return "Circle with radius " + radius + " at" + super.toString(); // Call to String of Shape
 	}
 }

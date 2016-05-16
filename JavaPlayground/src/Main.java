@@ -23,10 +23,15 @@ public class Main {
 		
 		// Rectangle (Overloading)
 		
-		Rectangle rec1 = new Rectangle(2,2,3,2);
+		Rectangle rec1 = new Rectangle(10,2,3,2);
 		
 		Rectangle rec2 = new Rectangle(2,0,0);
 		
+		// toString 
+		
+		System.out.println(myCircle.toString());
+		System.out.println(rec1.toString());
+		System.out.println(rec2.toString());
 		
 	}
 

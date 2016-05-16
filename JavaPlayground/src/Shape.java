@@ -39,4 +39,13 @@ public class Shape {
 	public double getY() {
 		return y;
 	}
+	
+	/**
+	 * Returns representation of this
+	 * 
+	 * @return representation of this
+	 */
+	public @Override String toString() { // Don't need @Override. Used to Catch Errors
+		return "(" + getX() + "," + getY() + ")";
+	}
 }
