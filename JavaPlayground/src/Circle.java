@@ -1,7 +1,7 @@
 
 /* An instance (object) represents a circle */
 
-public class Circle {
+public class Circle extends Shape {
 
 	// Instance Fields
 	public Double radius; // radius of the circle. radius >= 0
@@ -9,14 +9,17 @@ public class Circle {
 
 	/**
 	 * <dt><b>Constructor:</b>
-	 * <dd>instance of Circle with radius r
+	 * <dd>instance of Circle with radius r at (x, y)
 	 * 
 	 * <dt><b>Preconditions:</b>
 	 * <dd>r >= 0
 	 * 
 	 * @param r the radius of the circle
+	 * @param x the x-coordinate of the top-left point
+	 * @param y the y-coordinate of the top-left point
 	 */
-	public Circle(double radius) {
+	public Circle(double radius, double x, double y) {
+		super(x,y);
 		this.radius = radius;
 	}
 

@@ -11,7 +11,7 @@ public class Main {
 
 		// Circle 
 		
-		Circle myCircle = new Circle(5.0);
+		Circle myCircle = new Circle(5.0,1,2);
 
 		myCircle.setRadius(10);
 
@@ -23,9 +23,9 @@ public class Main {
 		
 		// Rectangle (Overloading)
 		
-		Rectangle rec1 = new Rectangle(2,2);
+		Rectangle rec1 = new Rectangle(2,2,3,2);
 		
-		Rectangle rec2 = new Rectangle(2);
+		Rectangle rec2 = new Rectangle(2,0,0);
 		
 		
 	}
