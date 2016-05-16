@@ -32,7 +32,6 @@ public class Rectangle {
 	 * 
 	 */
 	public Rectangle(double s) {  // Overloaded Constructor
-		sideH = s;
-		sideV = s;
+		this (s,s); // Call on another structure to avoid duplication
 	}
 }
