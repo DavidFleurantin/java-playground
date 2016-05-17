@@ -21,7 +21,7 @@ public class Shape {
 	}
 
 	// Methods
-	
+
 	/**
 	 * Return x-coordinate of Shape at point (x1,y1)
 	 * 
@@ -39,13 +39,23 @@ public class Shape {
 	public double getY() {
 		return y;
 	}
-	
+
+	/**
+	 * Return area of Shape
+	 * 
+	 * @return are of Shape
+	 */
+	public double area() {
+		return 0.0;
+	}
+
 	/**
 	 * Returns representation of this
 	 * 
 	 * @return representation of this
 	 */
-	public @Override String toString() { // Don't need @Override. Used to Catch Errors
+	public @Override String toString() { // Don't need @Override. Used to Catch
+										 // Errors
 		return "(" + getX() + "," + getY() + ")";
 	}
 }
